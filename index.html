@@ -5,11 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="ВнедряйAI - ИИ-ассистент для отдела продаж">
     <meta name="keywords" content="бот, ИИ, продажи, искусственный интеллект, чат-бот, CRM, автоматизация продаж, AI assistant, sales automation, customer service">
-    <title>
-      {% block title %}ВнедряйAI{% endblock %}
-    </title>
+    <title>ВнедряйAI</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <style>
+      .hero-section {
+        padding: 80px 0;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      }
+
+      .feature-box {
+        transition: transform 0.3s ease;
+        height: 100%;
+      }
+
+      .feature-box:hover {
+        transform: translateY(-10px);
+      }
+
+      .cta-section {
+        padding: 100px 0;
+        background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+      }
+    </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -30,9 +48,6 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#instruction">Быстрый старт</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/login">Войти</a>
             </li>
           </ul>
         </div>
