@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="ru" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ВнедряйAI - ИИ-ассистент для отдела продаж">
+    <meta name="keywords" content="бот, ИИ, продажи, искусственный интеллект, чат-бот, CRM, автоматизация продаж, AI assistant, sales automation, customer service">
+    <title>
+      {% block title %}ВнедряйAI{% endblock %}
+    </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="/">ВнедряйAI</a>
+  
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Возможности</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#how-it-works">Как это работает</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#instruction">Быстрый старт</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/login">Войти</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero-section text-center text-white">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h1 class="display-4 fw-bold mb-4">Платформа для создания</h1>
+            <h1 class="display-4 fw-bold mb-4">AI-агентов</h1>
+            <p class="lead mb-5">Автоматизируйте процессы в компании: от продаж и поддержки до HR и внутренних операций без навыков программирования.</p>
+            <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
+              <a href="/login" class="btn btn-light btn-lg px-4 py-2">Попробовать бесплатно</a>
+              <a href="#how-it-works" class="btn btn-outline-light btn-lg px-4 py-2">Узнать больше</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section id="features" class="py-5">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="display-6 mb-3">Основные возможности</h2>
+            <p class="lead">Что можно сделать с ВнедряйAI</p>
+          </div>
+        </div>
+  
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card feature-box h-100  shadow-sm">
+              <div class="card-body p-4">
+                <div class="text-primary fs-1 mb-3">🤖</div>
+                <h5 class="card-title">Создание AI-ботов</h5>
+                <p class="card-text text-muted">Создавайте умных агентов без навыков программирования для решения различных бизнес-задач.</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-4">
+            <div class="card feature-box h-100  shadow-sm">
+              <div class="card-body p-4">
+                <div class="text-primary fs-1 mb-3">❓</div>
+                <h5 class="card-title">Ответы на частые вопросы</h5>
+                <p class="card-text text-muted">Обучите ботов отвечать на вопросы по базе знаний и документации вашей компании.</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-4">
+            <div class="card feature-box h-100  shadow-sm">
+              <div class="card-body p-4">
+                <div class="text-primary fs-1 mb-3">🔌</div>
+                <h5 class="card-title">Интеграции с внешними системами</h5>
+                <p class="card-text text-muted">Подключайте ботов к CRM, мессенджерам и любым другим API вашей компании.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section id="how-it-works" class="py-5 bg-dark bg-gradient">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="display-6 mb-3">Как это работает</h2>
+            <p class="lead">Простая настройка без программирования</p>
+          </div>
+        </div>
+  
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <h3 class="mb-4">Для кого подходит ВнедряйAI</h3>
+            <ul class="list-group">
+              <li class="list-group-item d-flex align-items-start border-0">
+                <div class="text-primary me-2 mt-1">✓</div>
+                <div>
+                  <strong>Отделы продаж</strong> - автоматизация первичной обработки лидов
+                </div>
+              </li>
+              <li class="list-group-item d-flex align-items-start border-0">
+                <div class="text-primary me-2 mt-1">✓</div>
+                <div>
+                  <strong>Службы поддержки</strong> - ответы на частые вопросы 24/7
+                </div>
+              </li>
+              <li class="list-group-item d-flex align-items-start border-0">
+                <div class="text-primary me-2 mt-1">✓</div>
+                <div>
+                  <strong>HR и рекрутинг</strong> - автоматизация первичного общения с кандидатами
+                </div>
+              </li>
+              <li class="list-group-item d-flex align-items-start border-0">
+                <div class="text-primary me-2 mt-1">✓</div>
+                <div>
+                  <strong>Маркетинг</strong> - сбор данных и квалификация интересов
+                </div>
+              </li>
+              <li class="list-group-item d-flex align-items-start border-0">
+                <div class="text-primary me-2 mt-1">✓</div>
+                <div>
+                  <strong>Операционные команды</strong> - автоматизация внутренних процессов
+                </div>
+              </li>
+              <li class="list-group-item d-flex align-items-start border-0">
+                <div class="text-primary me-2 mt-1">✓</div>
+                <div>
+                  <strong>Образовательные проекты</strong> - помощь студентам и слушателям
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="mt-5 mb-4">Пример работы агента</h3>
+            <div class="card border-0 shadow-sm text-dark">
+              <div class="card-body bg-light rounded">
+                <div class="d-flex mb-3">
+                  <div class="flex-shrink-0">
+                    <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                      <span class="text-white fw-bold">К</span>
+                    </div>
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    <div class="bg-primary bg-opacity-10 rounded p-3">Что входит в годовой абонемент клуба и какая цена?</div>
+                  </div>
+                </div>
+  
+                <div class="d-flex mb-3">
+                  <div class="flex-grow-1 ms-5">
+                    <div class="small  fst-italic">
+                      Пользователь интересуется условиями годового абонемента в фитнес-клуб. Нужно получить информацию о доступных абонементах.
+                      <br>
+                      → Вызываю get_club_membership_info().
+                    </div>
+                    <div class="mt-2 small fst-italic border rounded p-2">
+                      Результат API:
+                      <br>
+                      {"membership_type": "годовой", "price": "15000 RUB", "includes": ["Тренажерный зал", "Групповые занятия", "Бассейн", "Сауна"], "visit_restrictions": "Без ограничений"}
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="d-flex">
+                  <div class="flex-shrink-0">
+                    <div class="bg-success rounded-circle d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                      <span class="text-white fw-bold">A</span>
+                    </div>
+                  </div>
+                  <div class="flex-grow-1 ms-3">
+                    <div class="bg-success bg-opacity-10 rounded p-3">Годовой абонемент в клуб стоит 15 000 ₽ и включает в себя: тренажерный зал, групповые занятия, бассейн и сауну. Посещение без ограничений.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section id="instruction" class="py-5">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="display-6 mb-3">Как создать своего агента</h2>
+            <p class="lead">Простая пошаговая инструкция</p>
+          </div>
+        </div>
+  
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="p-5 rounded  text-center">
+              <h3>5 Шагов до запуска</h3>
+              <p class="text-muted">от создания до полноценной работы вашего AI-агента</p>
+              <div class="mt-4">
+  
+                <a class="btn btn-success rounded-pill" href="/login">Запуск в течение нескольких минут</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <h3 class="mb-4">Быстрая настройка без программирования</h3>
+            <ol class="list-group list-group-numbered">
+              <li class="list-group-item d-flex justify-content-between align-items-start border-0">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Опишите задачу</div>
+                  Нейросеть сама создаст начальные сценарии агента
+                </div>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start border-0">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Обучите его</div>
+                  Загрузите информацию, о которой должен знать агент
+                </div>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start border-0">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Настройте интеграции</div>
+                  Подключите агента к CRM или вашему API
+                </div>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start border-0">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Запустите</div>
+                  Активируйте агента в чатах, мессенджерах или на сайте
+                </div>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-start border-0">
+                <div class="ms-2 me-auto">
+                  <div class="fw-bold">Отслеживайте работу</div>
+                  Анализируйте эффективность и управляйте логикой в реальном времени
+                </div>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="py-5">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="display-6 mb-3">Почему выбирают ВнедряйAI</h2>
+            <p class="lead">Преимущества нашей платформы</p>
+          </div>
+        </div>
+  
+        <div class="row g-4">
+          <div class="col-md-3">
+            <div class="text-center">
+              <div class="fs-1 text-primary mb-3">⚡</div>
+              <h5>No-code подход</h5>
+              <p class="text-muted">Создание и настройка агентов без навыков программирования</p>
+            </div>
+          </div>
+  
+          <div class="col-md-3">
+            <div class="text-center">
+              <div class="fs-1 text-primary mb-3">🔄</div>
+              <h5>Гибкие интеграции</h5>
+              <p class="text-muted">Работает с CRM, мессенджерами и любыми внешними API</p>
+            </div>
+          </div>
+  
+          <div class="col-md-3">
+            <div class="text-center">
+              <div class="fs-1 text-primary mb-3">🚀</div>
+              <h5>Быстрый запуск</h5>
+              <p class="text-muted">Запустите своего AI-агента всего за несколько минут</p>
+            </div>
+          </div>
+  
+          <div class="col-md-3">
+            <div class="text-center">
+              <div class="fs-1 text-primary mb-3">🛡️</div>
+              <h5>Безопасность</h5>
+              <p class="text-muted">Все данные надежно защищены</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="cta-section text-center text-white">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <h2 class="display-5 fw-bold mb-4">Готовы автоматизировать бизнес-процессы?</h2>
+            <p class="lead mb-5">Присоединяйтесь к компаниям, которые уже используют ВнедряйAI для оптимизации своей работы</p>
+            <a href="/login" class="btn btn-light btn-lg px-5 py-3">Попробовать бесплатно 14 дней</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <footer class="py-4 bg-dark text-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h5>ВнедряйAI</h5>
+            <p>Платформа для создания AI-ботов</p>
+          </div>
+          <div class="col-md-6 text-md-end"></div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Подключение Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
